@@ -1,0 +1,148 @@
+@media(prefers-color-scheme: dark) {
+    body {
+        background: var(--dark_mode);
+    }
+    
+    .header__logo::before {
+        content: url('../images/logo_dark.png');
+    }
+    
+    .header__content-subtitle {
+        color: var(--light_mode);
+    }
+    
+    .main__work-text{
+        background: var(--primary_color);
+        color: var(--light_mode);
+    }
+    
+    .main__work-right{
+        background: var(--dark_mode);
+    }
+    
+    .main__work-description {
+        color: var(--light_mode);
+    }
+    
+    .accordion-button.collapsed {
+        background: var(--dark_mode) !important;
+    }
+    
+    .accordion-item {
+        border: none;
+    }
+    
+    .portfolio__link, .portfolio__link:hover {
+        background: var(--dark_mode);
+    }
+    
+    .portfolio__link.active, .portfolio__link:hover.active {
+        color: var(--dark_mode);
+        background: var(--primary_color);
+    }
+    
+    .portfolio__content {
+        background: var(--dark_mode);
+    }
+    
+    .portfolio__content-description {
+        color: var(--light_mode);
+    }
+    
+    .footer__link, .footer__link:hover {
+        color: var(--light_mode);
+    }
+    .navbar-toggler-icon{
+        color: var(--light_mode) !important;
+    }
+    .burger-menu::before {
+        content: '\f0c9';
+        color: white;
+    }
+    .navbar-toggler {
+        box-shadow: none !important;
+    }
+}
+@media (max-width: 1400px) {
+    .footer__link {
+        font-size: 21px;
+    }
+    .d-block {
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .footer__link {
+        font-size: 18px;
+    }
+    .main__work-img {
+        width: 100%;
+    }
+    .header__skill-title {
+        font-size: 16px;
+    }
+    .rectangle {
+        display: none;
+    }
+    .shape {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .carousel-indicators {
+        margin-bottom: -20px !important;
+    }
+    .main__work-right {
+        padding-bottom: 30px;
+        margin-top: 50px;
+    }
+    .accordion {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 780px) {
+    .main__work-text {
+        top: 60px;
+        left: 50px;
+    }
+    .footer__link {
+        font-size: 16px;
+    }
+}
+@media (max-width: 525px) {
+    .header__link, .header__link:hover {
+        padding: 30px;
+    }
+}
+@media (max-width: 450px) {
+    .main__work-title {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .portfolio__content-title {
+        text-align: center;
+    }
+    .footer__links {
+        justify-content: center !important;
+    }
+}
+@media (max-width: 400px) {
+    .header__content-subtitle {
+        text-align: center;
+    }
+    .header__content-title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main__work-text {
+        top: 20px;
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+}
